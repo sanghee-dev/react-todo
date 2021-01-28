@@ -37,7 +37,7 @@ const TodoTime = () => {
   }, 1000);
   return (
     <div className="TodoTime">
-      <h1 className="TodoTime__time">{"12:34"}</h1>
+      <h1 className="TodoTime__time">{time}</h1>
       <h2 className="TodoTime__comment">What is your main focus for {day}?</h2>
     </div>
   );

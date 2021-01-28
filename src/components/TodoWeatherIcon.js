@@ -9,7 +9,7 @@ import {
   FiCloud,
 } from "react-icons/fi";
 
-const TodoWeatherIcon = ({ condition = "Sunny" }) => {
+const TodoWeatherIcon = ({ condition = "Clear" }) => {
   const weathers = {
     Thunderstorm: <FiCloudLightning />,
     Drizzle: <FiCloudDrizzle />,
